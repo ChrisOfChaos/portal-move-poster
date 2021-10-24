@@ -28,6 +28,7 @@ body{
     display: block;
     float: left;
     width: 50%;
+    height: 100%;
     /* background: blue; */
 }
 #hoverglados{
@@ -40,13 +41,14 @@ body{
 }
 #leftside img{
     width: auto;
-    height: auto;
+    height: 100%;
     margin: 20px;
 }
 #rightside{
     display: block;
     float: right;
     width: 50%;
+    height: 100%;
     /* background: green; */
     text-align: center;
 }
@@ -89,7 +91,7 @@ body{
         width: 70%;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     #mvlogo{
         width: 80%;
     }
@@ -109,6 +111,13 @@ body{
     }
     #rightside{
         width: 100%;
+    }
+    .caption{
+        margin: 15px;
+    }
+    #mvquote{
+        font-size: 1.2em;
+        margin: 30px;
     }
     #cast{
         width: 80%;
