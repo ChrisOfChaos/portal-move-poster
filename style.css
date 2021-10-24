@@ -78,7 +78,7 @@ body{
         height: auto;
     }
     #wrapper{
-        width: 90%;
+        width: 100%;
     }
     #aperturelogo{
         width: 80%;
@@ -86,12 +86,32 @@ body{
 }
 @media screen and (max-width: 1100px) {
     #mvlogo{
-        width: 100%;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 900px) {
+    #mvlogo{
+        width: 80%;
     }
     #leftside{
         display: none;
     }
     #rightside{
         width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #mvlogo{
+        width: 90%;
+    }
+    #leftside{
+        display: none;
+    }
+    #rightside{
+        width: 100%;
+    }
+    #cast{
+        width: 80%;
+        margin: 0 auto;
     }
 }
